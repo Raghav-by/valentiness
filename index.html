@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -42,17 +43,15 @@ video {
 <div class="card">
   <h1>💖 Happy Valentine’s Day 💖</h1>
   <p>You make my world more beautiful every day.</p>
-
   <button onclick="showLove()">Click for a Surprise 💌</button>
-
+<h2>Video Test</h2>
   <div id="surprise" class="hidden">
-    <video controls>
+    <video controls width="300">
       <source src="valentine.MP4" type="video/mp4">
     </video>
     <h2>Will you be my Valentine? 🌹</h2>
   </div>
 </div>
-
 <script>
 function showLove() {
   document.getElementById("surprise").style.display = "block";
